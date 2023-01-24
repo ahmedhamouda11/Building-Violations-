@@ -1,0 +1,155 @@
+:root
+{
+	/*Define Global Variables*/
+	--color1: black;
+	--color2:red; /*#a4f4f9 #ff91a4 */
+	--color3: white; /*#ec05f4;*/
+    --color4:green;
+
+	--dark-color:#19283f;
+	--green-color:#33d1cc;
+    
+}
+
+*{
+    margin:0;
+    padding:0;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box ;
+	text-align: right;
+}
+
+.request
+{
+    border: 1px solid ;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+button
+{
+    background-color: var(--color4) !important;
+}
+
+.main-form
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    margin-top:30px;
+    padding:20px;
+}
+
+ .main-form .data
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: right;
+}
+
+.main-form .data .personal
+{
+    width:50%;
+    padding:20px;
+}
+
+.main-form .data .land
+{
+    width:50%;
+    padding:20px;
+}
+
+.main-form .butt
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: right;
+}
+
+.main-form .submit
+{
+    margin-top: 10px;
+    background-color: var(--bs-primary);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.ifValid
+{
+    color: green;   
+}
+
+ .div_error
+{
+    display: none;
+}
+
+ #p_error
+{
+    color: red
+}
+
+/*
+.container .sign
+{
+	width:50%;
+	border: 1px solid;
+	margin:10px;
+	background-color: var(--color3);
+}
+*/
+
+.container .sign-from
+{
+    display: flex;
+    flex-direction: row;
+	border: 1px solid;
+	background-color: var(--color4);
+    
+    height:1000px;
+	border: 1px solid;
+	margin-top:20px;
+	margin-bottom:20px;
+	padding:20px;
+
+}
+
+.container .sign-from .sign-card
+{
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    height:200px;
+    background-color: green;
+}
+
+.container .sign-from .signin-card
+{
+    display: none;
+    width: 200px;
+    height:200px;
+    background-color: blue;
+}
+.container .sign-from .signup-card
+{
+    display: flex;
+    width: 200px;
+    height:200px;
+    background-color: blue;
+}
+
+.container .sign-from .sign-choice
+{
+    width:200px;
+    height: 200px;
+    background-color: red;
+}
